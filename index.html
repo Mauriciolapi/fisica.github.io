@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campo Electrico</title>
+    <link rel="shortcut icon" href="atom-regular-24.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script defer src="app4.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="cuadrado1">
+            <h1>Ingrese sus valores</h1>
+            <input type="number" id="Q" placeholder="Carga Q">
+            <input type="number" id="q2" placeholder="Carga q1">
+            <button onclick="submit()">Submit</button>
+        </div>
+        
+        <div class="cuadrado2" id="cargas">
+            <div id="textos">
+                <p id="Fe"></p>
+                <p id="distance"></p>
+            </div>
+            <div style="position: absolute; width:80vh;" id="anchor" class="hidden anchor">
+                <img src="arrow.png" class="arrow arrow1" id="arrow1" draggable="false">
+                <img src="arrow.png" class="arrow arrow2" id="arrow2" draggable="false">
+                <img src="arrow.png" class="arrow arrow3" id="arrow3" draggable="false">
+                <img src="arrow.png" class="arrow arrow4" id="arrow4" draggable="false">
+                <img src="arrow.png" class="arrow arrow5" id="arrow5" draggable="false">
+                <img src="arrow.png" class="arrow arrow6" id="arrow6" draggable="false">
+                <img src="arrow.png" class="arrow arrow7" id="arrow7" draggable="false">
+                <img src="arrow.png" class="arrow arrow8" id="arrow8" draggable="false">
+                <img src="arrow.png" class="arrow arrow9" id="arrow9" draggable="false">
+                <img src="arrow.png" class="arrow arrow10" id="arrow10" draggable="false">
+                <img src="arrow.png" class="arrow arrow11" id="arrow11" draggable="false">
+                <img src="arrow.png" class="arrow arrow12" id="arrow12" draggable="false">
+                <img src="arrow.png" class="arrow arrow13" id="arrow13" draggable="false">
+                <img src="arrow.png" class="arrow arrow14" id="arrow14" draggable="false">
+                <img src="arrow.png" class="arrow arrow15" id="arrow15" draggable="false">
+                <img src="arrow.png" class="arrow arrow16" id="arrow16" draggable="false">
+                <img src="arrow.png" class="arrow arrow17" id="arrow17" draggable="false">
+                <img src="arrow.png" class="arrow arrow18" id="arrow18" draggable="false">
+                <img src="arrow.png" class="arrow arrow19" id="arrow19" draggable="false">
+                <img src="arrow.png" class="arrow arrow20" id="arrow20" draggable="false">
+                <img src="arrow.png" class="arrow arrow21" id="arrow21" draggable="false">
+                <img src="arrow.png" class="arrow arrow22" id="arrow22" draggable="false">
+                <img src="arrow.png" class="arrow arrow23" id="arrow23" draggable="false">
+                <img src="arrow.png" class="arrow arrow24" id="arrow24" draggable="false">
+                <img src="arrow.png" class="arrow arrow25" id="arrow25" draggable="false">
+                <img src="arrow.png" class="arrow arrow26" id="arrow26" draggable="false">
+                <img src="arrow.png" class="arrow arrow27" id="arrow27" draggable="false">
+                <img src="arrow.png" class="arrow arrow28" id="arrow28" draggable="false">
+                <img src="arrow.png" class="arrow arrow29" id="arrow29" draggable="false">
+                <img src="arrow.png" class="arrow arrow30" id="arrow30" draggable="false">
+                <img src="arrow.png" class="arrow arrow31" id="arrow31" draggable="false">
+                <img src="arrow.png" class="arrow arrow32" id="arrow32" draggable="false">
+                <img src="arrow.png" class="arrow arrow33" id="arrow33" draggable="false">
+                <img src="arrow.png" class="arrow arrow34" id="arrow34" draggable="false">
+                <img src="arrow.png" class="arrow arrow35" id="arrow35" draggable="false">
+                
+            </div>
+            <div  id="x" class="carga1">
+                <h4>Q</h4>
+                <div class="Q">
+                    <p id="signo1"></p>
+                </div>
+            </div>
+            <div id="y" class="carga2">
+                <h4>q1</h4>
+                <div class="q2">
+                    <p id="signo2"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
