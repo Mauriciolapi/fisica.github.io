@@ -1,7 +1,25 @@
 *{color: rgb(221, 177, 177);font-family: 'Roboto Condensed', sans-serif;}
-body{margin: 0px;}
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,400&display=swap');
-html{background-color: #1c1c1c;}
+
+body{
+    margin: 0px;
+    background: linear-gradient(
+        to right,
+        #1c1c1c,
+        rgb(7, 12, 8),
+        #1c1c1c
+    );
+    animation: gradient 10s linear infinite;
+    background-size: 200%;
+}
+
+@keyframes gradient{
+    from{
+        background-position: 0% center;
+    }to{
+        background-position: -200% center;
+    }
+}
 
 .container{
     width: 100%;
