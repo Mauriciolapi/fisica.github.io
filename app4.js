@@ -92,7 +92,7 @@ function flechas(valor1,valor2, id1, id2) {
             let metros=distance/100;
         
             let f = (k*q*q2)/Math.pow(metros,2);
-            document.getElementById("Fe").innerHTML = "Fuerza Electrica: "+f.toExponential(1);
+            document.getElementById("Fe").innerHTML = "Fuerza Electrica: "+f.toExponential(1)+"N";
         
             
     
