@@ -1,0 +1,242 @@
+*{color: rgb(221, 177, 177);font-family: 'Roboto Condensed', sans-serif; user-select: none;}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,400&display=swap');
+
+body{
+    overflow:hidden;
+    margin: 0px;
+    background: linear-gradient(
+        to right,
+        #1c1c1c,
+        rgb(7, 12, 8),
+        #1c1c1c
+    );
+    animation: gradient 10s linear infinite;
+    background-size: 200%;
+}
+
+@keyframes gradient{
+    from{
+        background-position: 0% center;
+    }to{
+        background-position: -200% center;
+    }
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.nav h1{
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+.container{
+    width: 100%;
+    height: 70vh;
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5vh;
+}
+
+.cuadrado1{
+    height: 55vh;
+    width: 80vh;
+    border: 2px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 3vh;
+    box-shadow: 0px 10px 15px -5px rgb(255, 243, 243);
+    animation: MyAnimation 1s infinite alternate-reverse;
+}
+
+@keyframes MyAnimation{
+    100%{
+        box-shadow: 0px 15px 30px -1px rgb(243, 141, 141);
+    }
+}
+
+
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button{
+    appearance:none ;
+}
+
+button{
+    width: 30%;
+    height: 6%;
+    background-color: #292929;
+    border: 2px solid rgb(235, 147, 162);
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+button:hover{
+    font-weight: bolder;
+    border-radius: 10px;
+    width: 30.5%;
+    color: rgb(235, 147, 162);
+}
+
+button:focus{
+    color: rgba(235, 147, 162, 0.562);
+}
+
+.cuadrado2{
+    height: 55vh;
+    width: 80vh;
+    border: 2px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 10px 15px -5px rgb(255, 243, 243);
+    animation: MyAnimation 1s infinite alternate-reverse;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+    overflow: hidden;
+}
+
+.nashe{
+    width: 50%;
+}
+
+input{
+    background-color: transparent;
+    border: 2px solid antiquewhite;
+    width: 10%;
+    height: 95%;
+    text-align: center;
+}
+
+select{
+    text-align: center;
+    cursor:pointer;
+    appearance: none;
+    width: 10%;
+    height: 120%;
+    border-radius: 5px;
+    border: 2px solid antiquewhite;
+    background-color: transparent;
+}
+
+option{
+    background-color: #1c1c1c;
+}
+
+.Q{
+    width: 4vh;
+    height: 4vh;
+    background-color: crimson;
+    border-radius: 100%;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.q2{
+    width: 3vh;
+    height: 3vh;
+    font-weight: bold;
+    background-color: crimson;
+    border-radius: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div h4{
+    margin: 0px;
+}
+
+#y{
+    position: absolute;
+    cursor: grab;
+    transform: translate(-50% , -60%);
+    left: 80%;
+    z-index: 2;
+}
+
+#x{
+    position: absolute;
+    cursor:grab;
+    transform: translate(-50% , -60%);
+    left: 60%;
+    z-index: 2;
+}
+
+#textos{
+    display: flex;
+    height: fit-content;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+
+#textos p{
+    font-weight: bolder;
+    z-index: 2;
+    margin: 5px;
+}
+
+.arrow{
+    width: 100px; 
+    z-index: 0;
+    opacity: 0.5;
+}
+
+.hidden{
+    opacity: 0;
+}
+
+.show{
+    opacity: 1;
+}
+    
+.punto{
+    cursor: grab;
+    position: absolute;
+    height: 15vh;
+    width: 15vh;
+    z-index: 0;
+}
+
+.p{
+    position: absolute;
+    bottom: 55%;
+    right: 18%;
+    z-index: 3;
+}
+
+#canva{
+    position: absolute;
+    top: -10%;
+    left: 10%;
+    z-index: 0;
+}
+
+#canva2{
+    position: absolute;
+    top: -10%;
+    left: 10%;
+    z-index: 0;
+}
+
+#canva3{
+    position: absolute;
+    top: -10%;
+    left: 10%;
+    z-index: 0;
+}
