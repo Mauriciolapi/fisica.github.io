@@ -1,5 +1,4 @@
 const btnSubmit = document.getElementById('btnSubmit');
-const btnCancel = document.getElementById('btnCancel');
 const dragBtn1 = document.querySelector('.carga1');
 const dragBtn2 = document.querySelector('.carga2');
 const dragBtn3 = document.querySelector('.punto');
