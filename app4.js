@@ -188,8 +188,8 @@ function flechas(valor1,valor2, id1, id2) {
         
             let f1 = (k*q1*q2)/Math.pow(metros1,2);
             let f2 = (k*q1*q2)/Math.pow(metros2,2);
-            document.getElementById("Fe1").innerHTML = "F q1: "+f1.toExponential(1)+"N";
-            document.getElementById("Fe2").innerHTML ="F q2: "+f2.toExponential(1)+"N";
+            document.getElementById("Fe1").innerHTML = "Fuerza Electrica q1: "+f1.toExponential(1)+"N";
+            document.getElementById("Fe2").innerHTML ="Fuerza Electrica q2: "+f2.toExponential(1)+"N";
         
 
             const anchor = document.getElementById(arrowName);
